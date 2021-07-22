@@ -17,6 +17,6 @@ This is a simple weather application prototype that makes use of several Docker 
 - db: contains the SQL database stored on a Docker volume
 - website: the engine that assembles the user interface (frontend) and the server logic (backend)
 - adminer
-- grafana: only for testing; monitoring the evolution (over time) of some weather conditions. The graphics also make use of a Docker volume.
+- grafana: only for testing; monitoring the evolution (over time) of some weather conditions. It also makes use of a Docker volume.
 
 The server logic is written in Python and the frontend is written in PHP.
